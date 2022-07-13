@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Darren",
+        "lastname": "Till",
+        "type": "Kickboxer",
+        "overall": 4,
+        "id": 1001
+    },
+    {
+        "name": "Khamzat",
+        "lastname": "Chimaev",
+        "type": "Wrestler",
+        "overall": 4,
+        "id": 1002
+    },
+    {
+        "name": "Israel",
+        "lastname": "Adesanya",
+        "type": "Kickboxer",
+        "overall": 4.5,
+        "id": 1003
+    },
+    {
+        "name": "Jared",
+        "lastname": "Cannonier",
+        "type": "Kickboxer",
+        "overall": 4,
+        "id": 1004
+    }
+]

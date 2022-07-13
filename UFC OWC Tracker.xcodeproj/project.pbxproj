@@ -14,6 +14,12 @@
 		DC0E1E1A287E44CC00E3DF0D /* UFC_OWC_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E1E19287E44CC00E3DF0D /* UFC_OWC_TrackerTests.swift */; };
 		DC0E1E24287E44CC00E3DF0D /* UFC_OWC_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E1E23287E44CC00E3DF0D /* UFC_OWC_TrackerUITests.swift */; };
 		DC0E1E26287E44CC00E3DF0D /* UFC_OWC_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E1E25287E44CC00E3DF0D /* UFC_OWC_TrackerUITestsLaunchTests.swift */; };
+		DC0E1E36287E451600E3DF0D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E1E35287E451600E3DF0D /* ModelData.swift */; };
+		DC0E1E38287E453A00E3DF0D /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E1E37287E453A00E3DF0D /* Fighter.swift */; };
+		DC0E1E3A287E459700E3DF0D /* fighterData.json in Resources */ = {isa = PBXBuildFile; fileRef = DC0E1E39287E459700E3DF0D /* fighterData.json */; };
+		DC0E1E3C287E466300E3DF0D /* FighterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E1E3B287E466300E3DF0D /* FighterRow.swift */; };
+		DC0E1E3E287E46CB00E3DF0D /* FighterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E1E3D287E46CB00E3DF0D /* FighterList.swift */; };
+		DC0E1E40287E472900E3DF0D /* FighterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E1E3F287E472900E3DF0D /* FighterDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		DC0E1E1F287E44CC00E3DF0D /* UFC OWC TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UFC OWC TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0E1E23287E44CC00E3DF0D /* UFC_OWC_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFC_OWC_TrackerUITests.swift; sourceTree = "<group>"; };
 		DC0E1E25287E44CC00E3DF0D /* UFC_OWC_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFC_OWC_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC0E1E35287E451600E3DF0D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		DC0E1E37287E453A00E3DF0D /* Fighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighter.swift; sourceTree = "<group>"; };
+		DC0E1E39287E459700E3DF0D /* fighterData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fighterData.json; sourceTree = "<group>"; };
+		DC0E1E3B287E466300E3DF0D /* FighterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterRow.swift; sourceTree = "<group>"; };
+		DC0E1E3D287E46CB00E3DF0D /* FighterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterList.swift; sourceTree = "<group>"; };
+		DC0E1E3F287E472900E3DF0D /* FighterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				DC0E1E08287E44CA00E3DF0D /* UFC_OWC_TrackerApp.swift */,
-				DC0E1E0A287E44CA00E3DF0D /* ContentView.swift */,
+				DC0E1E34287E44FB00E3DF0D /* Model */,
+				DC0E1E33287E44F400E3DF0D /* Views */,
+				DC0E1E32287E44E900E3DF0D /* Resources */,
 				DC0E1E0C287E44CC00E3DF0D /* Assets.xcassets */,
 				DC0E1E0E287E44CC00E3DF0D /* Preview Content */,
 			);
@@ -125,6 +139,34 @@
 				DC0E1E25287E44CC00E3DF0D /* UFC_OWC_TrackerUITestsLaunchTests.swift */,
 			);
 			path = "UFC OWC TrackerUITests";
+			sourceTree = "<group>";
+		};
+		DC0E1E32287E44E900E3DF0D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E1E39287E459700E3DF0D /* fighterData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC0E1E33287E44F400E3DF0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E1E0A287E44CA00E3DF0D /* ContentView.swift */,
+				DC0E1E3B287E466300E3DF0D /* FighterRow.swift */,
+				DC0E1E3D287E46CB00E3DF0D /* FighterList.swift */,
+				DC0E1E3F287E472900E3DF0D /* FighterDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC0E1E34287E44FB00E3DF0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E1E35287E451600E3DF0D /* ModelData.swift */,
+				DC0E1E37287E453A00E3DF0D /* Fighter.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +275,7 @@
 			files = (
 				DC0E1E10287E44CC00E3DF0D /* Preview Assets.xcassets in Resources */,
 				DC0E1E0D287E44CC00E3DF0D /* Assets.xcassets in Resources */,
+				DC0E1E3A287E459700E3DF0D /* fighterData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +301,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC0E1E0B287E44CA00E3DF0D /* ContentView.swift in Sources */,
+				DC0E1E3C287E466300E3DF0D /* FighterRow.swift in Sources */,
+				DC0E1E40287E472900E3DF0D /* FighterDetail.swift in Sources */,
+				DC0E1E38287E453A00E3DF0D /* Fighter.swift in Sources */,
 				DC0E1E09287E44CA00E3DF0D /* UFC_OWC_TrackerApp.swift in Sources */,
+				DC0E1E36287E451600E3DF0D /* ModelData.swift in Sources */,
+				DC0E1E3E287E46CB00E3DF0D /* FighterList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
